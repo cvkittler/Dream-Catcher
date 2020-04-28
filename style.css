@@ -1,0 +1,110 @@
+/*project*/
+header {
+    font: bold;
+    font-weight: bold;
+    color: darkslateblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+header.secondary {
+    font: bold;
+    font-weight: bold;
+    color: Black;
+    font-size: 25px;
+    text-align: center;
+}
+
+    header.third {
+        font: bold;
+        font-weight: bold;
+        color: Black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+body {
+    background-color: #4d78a8;
+    font-family: Futura;    
+    font-weight: bold;
+    color: #000000;
+    font-size: 15px;
+    padding: 3px;
+}
+
+button.back {
+    /*These lines override the previous styling of buttons*/
+    -webkit-border-image: url("pictures/greyButton.png") 0 14 0 14 stretch;
+    width: 60px;
+    height: 40px;
+    /*These lines position the back button inside the header*/
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+button.Submit {
+    /*These lines override the previous styling of buttons*/
+    -webkit-border-image: url("pictures/greyButton.png") 0 14 0 14 stretch;
+    width: 60px;
+    height: 30px;
+    /*These lines position the back button inside the header*/
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+button.confirm {
+    /*These lines override the previous styling of buttons*/
+    -webkit-border-image: url("pictures/greyButton.png") 0 14 0 14 stretch;
+    width: 100px;
+    height: 30px;
+    /*These lines position the back button inside the header*/
+
+    margin-left: 35%;
+    margin-right: auto;
+    margin-top: 60%;
+}
+
+input[type='image'] {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+input[type='text'] {
+    width: 160px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+textarea {
+    background-color: #a1b9d4;
+    height: 30em;
+    width: 25em;
+}
+
+input[type='image'].record {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70%;
+    padding: 20px;
+}
+
+img.file {
+    width: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
